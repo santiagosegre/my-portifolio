@@ -1,0 +1,8 @@
+.introducao__social a{
+    color: rgb(229, 245, 255);
+    transition: all .3s;
+}
+
+.introducao__social a:hover{
+    color: rgb(92, 192, 254);
+}
