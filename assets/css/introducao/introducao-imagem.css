@@ -1,0 +1,9 @@
+.introducao__imagem {
+    background: url(../../sources/img/foto-santiago.png) no-repeat center / cover;
+    border-radius: 10%;
+    box-shadow: 5px 5px 10px #585882;
+    margin: 0 auto;
+    height: 300px;
+    width: 250px;
+    margin-top: 2.5rem;
+}

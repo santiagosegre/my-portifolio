@@ -1,0 +1,14 @@
+.menu__link {
+    transition: all .3s;
+}
+
+.menu__link:hover {
+    color: rgb(7, 7, 108);
+}
+
+@media screen and (m-width: 768px) {
+    .menu__link:first-child {
+        padding-left: 0;
+    }
+
+}

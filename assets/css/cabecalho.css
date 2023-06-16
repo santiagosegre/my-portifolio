@@ -1,0 +1,26 @@
+.cabecalho {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(247, 247, 247);
+}
+
+.cabecalho__nome {
+    color: blue;
+    margin-bottom: .5rem;
+}
+
+
+@media screen and (min-width: 768px) {
+
+    .cabecalho {
+        flex-direction: row;
+        justify-content: center;
+        gap: 5rem;
+        
+    }
+
+    .cabecalho__nome {
+        margin-bottom: 1rem;
+    }
+}
