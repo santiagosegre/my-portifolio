@@ -1,11 +1,16 @@
 .cabecalho {
     align-items: center;
+    
+    background: #185760;
+    background: -webkit-linear-gradient(180deg, #185760 0%, #0d5f62 50%, #046c6a 100%);
+    background: linear-gradient(181deg, #185760 0%, #0d5f62 50%, #046c6a 100%);
+    
     display: flex;
     flex-direction: column;
-    background: rgb(242,245,247);
-    background: linear-gradient(180deg, rgb(229, 245, 255) 0%, rgba(3,38,110,1) 100%);
+    
     padding-top: .5rem;
     padding-bottom: .5rem;
+    
 }
 
 @media screen and (min-width: 768px) {

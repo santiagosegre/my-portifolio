@@ -1,9 +1,12 @@
 .menu__link {
     transition: all .3s;
+    padding: .5rem;
+    color: rgb(206, 205, 205);
+    border-radius: 10px;
 }
 
 .menu__link:hover {
-    color: rgb(7, 7, 108);
+    color: rgb(248, 248, 248);
 }
 
 @media screen and (m-width: 768px) {

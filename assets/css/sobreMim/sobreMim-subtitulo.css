@@ -1,0 +1,8 @@
+.sobreMim__subtitulo {
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
