@@ -1,0 +1,16 @@
+.contato__botao {
+    width: 50%;
+    align-self: left
+    ;
+    padding: 10px 20px;
+    background-color: #1e79c9;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contato__botao:hover {
+    background-color: #23527c;
+}

@@ -1,0 +1,8 @@
+.contato__textarea {
+    width: 96%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}

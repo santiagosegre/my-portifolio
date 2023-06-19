@@ -25,23 +25,33 @@
 
     <link rel="stylesheet" href="assets/css/introducao/introducao.css" />
     <link rel="stylesheet" href="assets/css/introducao/introducao-titulo.css" />
-    <link
-      rel="stylesheet"
-      href="assets/css/introducao/introducao-subtitulo.css"
-    />
+    <link rel="stylesheet" href="assets/css/introducao/introducao-subtitulo.css" />
     <link rel="stylesheet" href="assets/css/introducao/introducao-imagem.css" />
     <link rel="stylesheet" href="assets/css/introducao/introducao-links.css" />
     <link rel="stylesheet" href="assets/css/introducao/introducao-social.css" />
 
-    <link rel="stylesheet" href="assets/css/sobreMim/sobreMim-titulo.css">
     <link rel="stylesheet" href="assets/css/sobreMim/sobreMim.css">
+    <link rel="stylesheet" href="assets/css/sobreMim/sobreMim-titulo.css">
     <link rel="stylesheet" href="assets/css/sobreMim/sobreMim-subtitulo.css">
 
+    <link rel="stylesheet" href="assets/css/skills/skills.css">
     <link rel="stylesheet" href="assets/css/skills/skills-titulo.css">
     <link rel="stylesheet" href="assets/css/skills/skills-subtitulo.css">
     <link rel="stylesheet" href="assets/css/skills/skills-info.css">
     <link rel="stylesheet" href="assets/css/skills/skills-blob.css">
     <link rel="stylesheet" href="assets/css/skills/skills-data.css">
+
+    <link rel="stylesheet" href="assets/css/projetos/projetos.css">
+    <link rel="stylesheet" href="assets/css/projetos/projetos-titulo.css">
+
+    <link rel="stylesheet" href="assets/css/contato/contato.css">
+    <link rel="stylesheet" href="assets/css/contato/contato-titulo.css">
+    <link rel="stylesheet" href="assets/css/contato/contato-label.css">
+    <link rel="stylesheet" href="assets/css/contato/contato-input.css">
+    <link rel="stylesheet" href="assets/css/contato/contato-textarea.css">
+    <link rel="stylesheet" href="assets/css/contato/contato-formulario.css">
+    <link rel="stylesheet" href="assets/css/contato/contato-campo.css">
+    <link rel="stylesheet" href="assets/css/contato/contato-botao.css">
 
     <link rel="stylesheet" href="assets/css/footer.css">
   </head>
@@ -128,10 +138,7 @@
       </h3>
 
       <p>
-        Me formei em Administração em 2017 pela UDF – Centro Universitário, e
-        foi aí que entendi a necessidade de um planejamento para a construção de
-        coisas grandiosas, que não adianta começar algo sem saber onde se quer
-        chegar.
+        Concluí minha graduação em Administração em 2017 pelo UDF – Centro Universitário. Durante esse período, compreendi a importância de um planejamento sólido na construção de projetos grandiosos. Aprendi que começar algo sem ter uma visão clara do objetivo final é contraproducente..
       </p>
 
       <h3 class="sobreMim__subtitulo">
@@ -139,11 +146,7 @@
       </h3>
 
       <p>
-        Carrego ótimas experiências, aprendizados e vivências das empresas por
-        onde passei. Foram mais de 5 anos trabalhando com atendimento ao
-        cliente, em diferentes áreas: Callcenter, Banco, Livraria. Aprendi muito
-        sobre a necessidade da experiência do cliente, saber o que de fato é
-        importante para conquistá-lo.
+        Durante mais de 5 anos, adquiri valiosas experiências trabalhando em diversas áreas, como Callcenter, Banco e Livraria, onde atuei no atendimento ao cliente. Essas experiências me proporcionaram aprendizados significativos sobre a importância da experiência do cliente e como conquistá-lo efetivamente.
       </p>
 
       <h3 class="sobreMim__subtitulo">
@@ -151,11 +154,7 @@
       </h3>
 
       <p>
-        Em agosto de 2022 mudei meu foco para tecnologia, com estudos em
-        programação, voltados para desenvolvimento WEB. Quero mostrar que é
-        possível não só atender o cliente, mas também encantá-lo, com a
-        praticidade da tecnologia junto com o design, independente do produto ou
-        serviço.
+        A partir de agosto de 2022, redirecionei meu foco para a área de tecnologia, com estudos voltados para programação e desenvolvimento web. Meu objetivo é demonstrar que é possível não apenas atender o cliente, mas também encantá-lo, oferecendo uma experiência prática por meio da combinação da tecnologia com um design eficiente, independentemente do produto ou serviço.
       </p>
     </section>
 
@@ -197,8 +196,37 @@
         </div>
     </section>
 
-
+    <section class="projetos container" id="projetos">
+      <h2 class="projetos__titulo">
+        Projetos
+      </h2>
+      <div>
+        
+      </div>
+    </section>
     
+    <section class="contato" id="contato">
+      <h2 class="contato__titulo" >Contato</h2>
+      <form class="contato__formulario">
+        <div class="contato__campo">
+          <label for="nome" class="contato__label">Nome Completo</label>
+          <input type="text" id="nome" class="contato__input" placeholder="Digite seu nome completo" required>
+        </div>
+        <div class="contato__campo">
+          <label for="email" class="contato__label">E-mail</label>
+          <input type="email" id="email" class="contato__input" placeholder="Digite seu e-mail" required>
+        </div>
+        <div class="contato__campo">
+          <label for="mensagem" class="contato__label">Mensagem</label>
+          <textarea id="mensagem" class="contato__textarea" placeholder="Digite sua mensagem" required></textarea>
+        </div>
+        <button type="submit" class="contato__botao">Enviar</button>
+      </form>
+    </section>
+    
+    
+    
+
     <footer class="footer">
         <p>
             &#169; Copyright Santiago Segre. Todos os direitos reservados.
