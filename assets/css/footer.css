@@ -1,5 +1,9 @@
 footer {
+    color: rgb(228, 228, 228);
     text-align: center;
-    padding-top: .4rem;
-    padding-bottom: .4rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    background-color: rgb(49, 50, 50);
+    margin-top: 1rem;
+    width: 100%;
 }

@@ -1,0 +1,11 @@
+.skills__blob {
+    width: 70px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: rgb(221, 221, 241);
+}
+
+.skills__blob img {
+    width: 50px;
+    margin-top: 1.2rem;
+}

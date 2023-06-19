@@ -1,6 +1,9 @@
 .cabecalho {
     align-items: center;
-    
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+
     background: #185760;
     background: -webkit-linear-gradient(180deg, #185760 0%, #0d5f62 50%, #046c6a 100%);
     background: linear-gradient(181deg, #185760 0%, #0d5f62 50%, #046c6a 100%);
